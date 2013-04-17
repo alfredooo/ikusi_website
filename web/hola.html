@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>iKusi</title>
+</head>
+<style>
+    .logg{
+        position: absolute;
+        z-index: 189;
+        left: 0px;
+        top: 0px;
+        background-color: white;
+        width:640px;
+        height: 390px;
+    }
+</style>
+<body>
+<img  src="images/logo.png" alt="iKusi" class="logg" id="imagef">
+    <div id="IkusiMainVideo">
+
+    </div>
+</body>
+<script>
+
+    var imageee = document.getElementById("imagef");
+    imageee.addEventListener("click",playyy);
+
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    // 3. This function creates an <iframe> (and YouTube player)
+    //    after the API code downloads.
+    var player;
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('IkusiMainVideo', {
+            height: '390',
+            width: '640',
+            suggestedQuality:"hd720",
+            videoId: 'W8Gi12mWtrs',
+            playerVars: { 'autoplay': 0, 'controls': 1,'autohide':1,rel:0 },
+            events: {
+                'onReady': onPlayerReady,
+                'onStateChange': onPlayerStateChange
+            }
+        });
+    }
+
+    function playyy(){
+
+        player.playVideo();
+        document.getElementById("imagef").style.display = "none";
+    }
+
+    // 4. The API will call this function when the video player is ready.
+    function onPlayerReady(event) {
+
+
+          //event.target.playVideo();
+    }
+
+    // 5. The API calls this function when the player's state changes.
+    //    The function indicates that when playing a video (state=1),
+    //    the player should play for six seconds and then stop.
+    var done = false;
+    function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+            setTimeout(stopVideo, 6000);
+            done = true;
+        }
+        player.setPlaybackQuality("hd720");  //hd1080
+        console.log(player.getAvailableQualityLevels());
+    }
+    function stopVideo() {
+        player.stopVideo();
+    }
+</script>
+</html>

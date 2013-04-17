@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 T//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+   <html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Ikusi</title>
+
+    <!--    styles  -->
+    <link rel="stylesheet" type="text/css" href="css/general.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.zuperSlider.css" />
+
+    <!--general Libraries-->
+    <script src="js/jquery.1.4.min.js"></script>
+
+    <!--slider-->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.zuperSlider.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".zuperSlider").zuperSlider( {mode:"none",arrows:{next:true,nextHorizontal:"end-71",nextVertical:"end-100",prev:true,prevHorizontal:"end-100",prevVertical:"end-100"},nav:{active:true,type:"bullets",imagesDimension:"105x55",navHorizontal:"end-100",navVertical:28,thumbs:true,thumbsDimension:"120x80"},auto:{active:true,time:5000,timer:"numbers",hoverStop:true,posHorizontal:30,posVertical:20,playPause:false,playPauseHover:true,playPauseHorizontal:595,playPauseVertical:28},animate:{type:"crossFade",speed:1000,position:["centerToMarginSquare","horizontal"],effect:["slideAlternativeH","fade"],cols:1,rows:25,delay:10,easing:"easeOutBack",car_nr:7,perPage:1},multipleEff:{active:false,random:false,eff:["square|1000|centerToMarginSquare,horizontal|slideAlternativeH,fade|1|25|10|easeInBounce|2000"]},order:{random:false,startSlide:1,firstSlide:1},caption:true,touchNavigation:true,bgImageScaleAndCenter:true,responsive:true,navigateOnHover:false,navigateWithMouseWheel:false} );
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="logo">
+            <a href="index.jsp">
+                <img  src="images/logo.png" alt="iKusi">
+            </a>
+        </div>
+        <div id="menu">
+
+        </div>
+    </div>
+    <div id="slider">
+            <div class="zuperWrap">
+                <div class="zuperSlider">
+                    <ul>
+                        <li><img class="zuper" src="images/LOGO_IKUSI_POSTA.jpg" alt="iKusi"/></li>
+                        <li>
+                            <div style="background-color:#7fff00;">
+                                <div style="width:650px;height:400px;margin:0 auto;">
+                                    <video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto" width="650" height="400"
+                                           poster="http://video-js.zencoder.com/oceans-clip.png" data-setup='{"example_option":true}'>
+                                        <source src="https://dl.dropbox.com/u/13001737/ikusiGlobalGivingChallenge%28720p_H.264-AAC%29.mp4" type='video/mp4'/>
+                                    </video>
+                                </div>
+                            </div>
+                        </li>
+                        <li><img class="zuper" src="images/IMG_0807SIZE.jpg" alt="iKusi"/></li>
+                        <li><img class="zuper" src="images/IMG_0808SIZE.jpg" alt="iKusi"/></li>
+                        <li><img class="zuper" src="images/IMG_0812SIZE.jpg" alt="iKusi"/></li>
+                        <li><img class="zuper" src="images/IMG_0814.JPG" alt="iKusi"/></li>
+                        <li><img class="zuper" src="images/IMG_0816.JPG" alt="iKusi"/></li>
+                        <li><img class="zuper" src="images/IMG_0819.JPG" alt="iKusi"/></li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+</body>
+</html>

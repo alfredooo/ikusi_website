@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="Ikusi4:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Ikusi4_war_exploded</output-path>
+    <root id="archive" name="Ikusi4_war exploded.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Ikusi4" />
+          <element id="dir-copy" path="$PROJECT_DIR$/src/main/java" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Ikusi4/web/Web" />
+    </root>
+  </artifact>
+</component>

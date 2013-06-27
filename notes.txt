@@ -1,4 +1,3 @@
-repo: https://github.com/alfredooo/ikusi_website.git
 openshift (admin/G2RphKr-JhlP)
 
 pasos muy proximos{
@@ -65,7 +64,8 @@ Datos {
     http://www.flickr.com/photos/ikusiphotos/
     
     repositorio github:
-    git@github.com:alfredooo/ikusi_website.git
+    ssh: git@github.com:alfredooo/ikusi_website.git
+    https://github.com/alfredooo/ikusi_website.git
 
 	gmail & analitycs:
 	webmaster@ikusi.org

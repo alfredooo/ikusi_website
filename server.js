@@ -15,7 +15,7 @@ function init(req, res) {
     var path ='web';
 
     if(req.url == '/'){
-        path = path + '/index.html'
+        path = path + '/index.html' //kdfjsd.co
     }
     else{
         path = path + req.url;

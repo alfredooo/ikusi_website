@@ -1,0 +1,72 @@
+repo: https://github.com/alfredooo/ikusi_website.git
+openshift (admin/G2RphKr-JhlP)
+
+pasos muy proximos{
+
+    -> trabajar en el menu
+	-> subir primera version de rails app con elementos de ikusi 	}
+
+cosas para hacer:
+	-> investigar jetkins para openshift?
+	-> usar padrino del lado del servidor? o libreria para api? ( creo voy a ir por grape, rack y actionrecord)
+	-> Angular para el backend? o algo q lea modelo y haga backend?fe
+	-> usar PostGreSQL
+	-> responsive? -> fundation?
+	-> personalisar botones. ( subtitulos )
+
+No olvidar:
+	IMAGE RESIZING (RESS)
+
+links interesantes:
+
+Frameworks interesantes {
+    ( variables en css )    http://sass-lang.com/
+	( estadisticas online ) http://piwik.org/
+	( ajuste de columnas muy bueno y animación de reajuste ) -> http://masonry.desandro.com/index.html
+	( ajustar bien los videos responsive, muy bueno tb ) -> http://fitvidsjs.com/
+	( pequeñas slideshow o esconder cosas para mostrar on hober) -> http://jquery.malsup.com/cycle/
+	( problems with ie and css ) -> http://selectivizr.com/
+    ( mover las hojas tipo libro ) -> http://www.turnjs.com/
+    https://github.com/mattkersley/Responsive-Menu
+    http://pep.briangonzalez.org/
+    
+	boilerplate {
+		http://responsiveboilerplate.com/
+		http://www.initializr.com/	}}
+	
+Articulos {
+	https://micahflee.com/2013/02/people-seem-to-care-about-why-i-switched-from-ubuntu-to-debian/
+	http://mobile.smashingmagazine.com/2013/05/14/providing-the-best-mobile-user-experience-possible/	}
+	
+
+Paginas de ejemplo{
+	http://designedtomove.org/	}
+
+serverNotes{
+    rails server -p $PORT -b $IP
+    rails generate scaffold Video lenguage:string fecha:date src:string
+    rails generate scaffold Post name:string title:string content:text
+}
+
+Datos {
+	servidor viejo dns ikusi: 	68.178.232.100
+	servidor nuevo ikusi: 		https://wordpress-ikusiweb.rhcloud.com/
+
+	wordpress:
+	URL:         https://wordpress-ikusiweb.rhcloud.com/wp-admin/
+	USER:        admin
+	PASSWORD:    web15junio2013
+    
+	Para loguearse en OpenShift:
+	USER:        webmaster@ikusi.org
+	PASSWORD:    web15junio2013
+
+    Fuente de fotos:
+    http://www.flickr.com/photos/ikusiphotos/
+    
+    repositorio github:
+    git@github.com:alfredooo/ikusi_website.git
+
+	gmail & analitycs:
+	webmaster@ikusi.org
+	15junio2013	}

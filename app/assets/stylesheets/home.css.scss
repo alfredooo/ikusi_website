@@ -1,3 +1,104 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+    font-family: Oswald !important;
+}
+.iku_boldFont{
+    font-weight:700;}
+.iku_bookFont{
+    font-weight:400;}
+.iku_lightFont{
+    font-weight:300;}
+.iku_hed{
+    background: none repeat scroll 0% 0% #3399cc;
+    width: 100%;
+    height: 104px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    color: white;
+    font-size:18px;
+    font-weight: lighter;}
+[role="navigation"]>ul {
+    float: right;
+    margin: 0;
+    top: 0;}
+[role="navigation"]>ul li{
+    display:block;
+    float:left;
+    margin-right: 40px;}
+[role="navigation"]{
+    height:18px;
+    position:absolute;
+    top: 0;
+    bottom: 0;  
+    left: 0;  
+    right: 0; 
+    margin: auto 30px;}
+.iku_hed .iku_logo {
+    position: absolute;  
+    top: 0;
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto 30px;  
+}
+.iku_mainVideo{
+    background: image-url('IMG_1688_Big.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 104px;
+    position: fixed;
+    margin-top: 0;}
+.iku_playButton{
+    width: 94px;}
+.iku_mv_descriptionBox{
+    width: 700px;
+    height: 170px;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color:white;
+    z-index: 12;}
+.iku_mv_descriptionBox > .iku_mvTitle{
+    font-size: 100px;
+}
+.iku_mv_descriptionBox > .iku_mvsubTitle{
+    font-size: 30px;
+}
+.iku_footer{
+    width:100%;
+    height:30px;
+    background-color: #3399cc;
+    font-size: 15px;
+    position:absolute;
+    bottom: 0;
+    color: white;
+}
+.iku_footer .iku_footLogo{
+    margin-top: 4px;
+    margin-left: 30px;
+    float:left;
+}
+.iku_footer .iku_moreInfoButt{
+    position: relative;
+    left: 40%;
+}
+.iku_footer .iku_info{
+    
+    float: right;
+    margin-right: 30px;
+    margin-top: 4px;
+}

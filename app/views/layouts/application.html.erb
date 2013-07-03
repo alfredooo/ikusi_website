@@ -6,101 +6,25 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>ikusi website</title>
+        <title>iKusi</title>
         <meta name="description" content="">
-        
         <!-- How viewports work: http://t.co/dKP3o1e -->
-    	<meta name="HandheldFriendly" content="True">
-		<meta name="MobileOptimized" content="320">
+        <meta name="HandheldFriendly" content="True">
+    	<meta name="MobileOptimized" content="320">
 		<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0">
-        
         <!-- Windows/IE font smoothing -->
 		<meta http-equiv="cleartype" content="on">
 		<!-- Use latest IE randering angine and switch on chrome Frame if available -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         
+        <!--script src="/assets/modernizr-2.6.2.min.js" type="text/javascript"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script-->
+        <!--script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="/assets/jquery-1.9.1.min.js"><\/script>')</script-->
         <%= stylesheet_link_tag    "application", :media => "all" %>
+        <%= javascript_include_tag "application" %>
         <%= csrf_meta_tags %>
-        <script src="/assets/modernizr-2.6.2.min.js" type="text/javascript"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-        <script>window.jQuery || document.write('<script src="/assets/jquery-1.9.1.min.js"><\/script>')</script>
-        <script src="/assets/jquery.masonry.min.js" type="text/javascript"></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-            <div class="head">
-                <div class="icono">
-                    icono
-                </div>
-
-            </div>
-            
-            <div class="centeredContainer">
-                <nav role="navigation">
-                    <ul id="navmenu">
-                        <li>
-                            <a href="#acerca" data-filter=".acerca">
-                            <span>ACERCA</span></a></li>
-                        <li>
-                            <a href="#historias" data-filter=".historias">
-                            <span>HISTORIAS</span></a></li>
-                        <li>
-                            <a href="#colabora" data-filter=".colabora">
-                            <span>COLABORA</span></a></li>
-                        <li>
-                            <a href="#contacto" data-filter=".contacto">
-                            <span>CONTACTO</span></a></li>
-                    </ul>   
-                </nav>
-                <div id="container" class="container">
-                    <div class="itemBig animatee">
-                    </div>
-                    
-                    <div class="item animatee">
-                    </div>
-                    <div class="item animatee" style="clear:right">
-                    </div>
-                    <div class="item animatee">
-                    </div>
-                    <div class="item animatee">
-                    </div>
-                </div>
-            </div>
-            
-        <span class="celular">
-            celular
-        </span>
-        <span class="tablet">
-            tablet
-        </span>
-        <span class="normalPc">
-            mas chico
-        </span>
-        <span class="other">
-            PC
-        </span>
-        
-
-        
-        <script>
-
-        $('#container').masonry({
-          // options...
-          itemSelector : '.animatee',
-          columnWidth : 1,
-
-          isAnimated: true,
-          animationOptions: {
-            duration: 750,
-            easing: 'linear',
-            queue: false
-          }
-        });
-
-        </script>
-        <%= javascript_include_tag "application" %>
+        <%= yield %>
     </body>
 </html>

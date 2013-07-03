@@ -16,11 +16,17 @@ cosas para hacer:
 No olvidar:
 	IMAGE RESIZING (RESS)
 
+resoluciones más utilizadas:
+1366x768
+1440x900
+1280x800
+
 links interesantes:
 
 Frameworks interesantes {
     ( variables en css )    http://sass-lang.com/
-	( estadisticas online ) http://piwik.org/
+	( estadisticas online  - onBackgroud.) http://piwik.org/
+    ( slider con cosas q se mueven adentro ) - http://tympanus.net/Development/ParallaxContentSlider/index.html
 	( ajuste de columnas muy bueno y animación de reajuste ) -> http://masonry.desandro.com/index.html
 	( ajustar bien los videos responsive, muy bueno tb ) -> http://fitvidsjs.com/
 	( pequeñas slideshow o esconder cosas para mostrar on hober) -> http://jquery.malsup.com/cycle/
@@ -39,7 +45,12 @@ Articulos {
 	
 
 Paginas de ejemplo{
-	http://designedtomove.org/	}
+	http://designedtomove.org/
+    http://etchapps.com (diseño)
+    http://www.nike.com/us/en_us/c/better-world (ventanitas?)
+    http://thef.com.uy/#work_detail/88_johnnie-walker-dj-experience (home?gentee?)
+    http://www.alexanderalmstrom.com/work/
+    http://2xelliott.co.uk/}
 
 serverNotes{
     rails server -p $PORT -b $IP

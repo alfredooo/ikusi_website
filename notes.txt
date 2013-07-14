@@ -16,6 +16,10 @@ cosas para hacer:
 No olvidar:
 	IMAGE RESIZING (RESS)
 
+cambios en diseño en base a resolución:
+ancho menor a 780px =>
+ otro diseño:
+
 resoluciones más utilizadas:
 1366x768
 1440x900

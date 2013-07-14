@@ -3,8 +3,8 @@ development:
   adapter: mysql2
   encoding: utf8
   database: dev
-  username: alfredooo
-  host: 127.10.183.129
+  username: <%=ENV['C9_USER']%>
+  host: <%=ENV['IP']%>
 
 
 # Warning: The database defined as "test" will be erased and
@@ -14,8 +14,8 @@ test:
     adapter: mysql2
     encoding: utf8
     database: ikusi_test
-    username: alfredooo
-    host: 127.10.183.129
+    username: <%=ENV['C9_USER']%>
+    host: <%=ENV['IP']%>
 
 production:
   adapter: mysql2
@@ -27,4 +27,3 @@ production:
   username: <%=ENV['OPENSHIFT_MYSQL_DB_USERNAME']%>
   password: <%=ENV['OPENSHIFT_MYSQL_DB_PASSWORD']%>
   socket: <%=ENV['OPENSHIFT_MYSQL_DB_SOCKET']%>
-    

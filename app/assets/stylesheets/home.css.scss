@@ -3,6 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body{
     font-family: Oswald !important;
+    font-size: 16px;/*default*/
+    /*font-size: 1.0vw;*/
 }
 .iku_boldFont{
     font-weight:700;}
@@ -10,6 +12,12 @@ body{
     font-weight:400;}
 .iku_lightFont{
     font-weight:300;}
+    
+.hov:hover{
+    font-weight: bold;
+    cursor:pointer;
+}    
+
 .iku_hed{
     background: none repeat scroll 0% 0% #3399cc;
     width: 100%;
@@ -60,7 +68,7 @@ body{
 .iku_playButton{
     width: 94px;}
 .iku_mv_descriptionBox{
-    width: 700px;
+    width: auto;
     height: 170px;
     font-weight: bold;
     text-align: center;
@@ -73,7 +81,7 @@ body{
     color:white;
     z-index: 12;}
 .iku_mv_descriptionBox > .iku_mvTitle{
-    font-size: 100px;
+    font-size: 6.25em;
 }
 .iku_mv_descriptionBox > .iku_mvsubTitle{
     font-size: 30px;
@@ -83,7 +91,7 @@ body{
     height:30px;
     background-color: #3399cc;
     font-size: 15px;
-    position:absolute;
+    position:fixed;
     bottom: 0;
     color: white;
 }
@@ -102,3 +110,30 @@ body{
     margin-right: 30px;
     margin-top: 4px;
 }
+#bkdPly{
+    width:100%;
+    height:100%;
+    position:fixed;
+    background-color:black;
+    z-index: 40;
+    opacity: 0.7;
+    display: none;
+    top:0;
+}
+#vdPlayer{
+    z-index: 50;
+    position: fixed;
+    width: 100%;
+    top: 104px;
+    bottom: 30px;
+    height: 81.0%;
+}
+
+/*** media queries ***/
+@media only screen and (max-width: 780px) {
+    body{
+        font-size: 12px;
+        /*font-size: 1.0vw;*/
+    }
+}
+/*********************/

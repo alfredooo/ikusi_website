@@ -2,19 +2,19 @@
     <%= image_tag("logoEN.png", :alt => "ikusi logo", :class => "iku_logo") %>
     <nav role="navigation">
         <ul>
-            <li><span>STORIES</span></li>
-            <li><span>ABOUT</span></li>
-            <li><span>GET INVOLVED</span></li>
-            <li><span>BLOG</span></li>
-            <li><span>CONTACT</span></li>
-            <li><span class="iku_bookFont">ES</span></li>
+            <li><span class="hov">STORIES</span></li>
+            <li><span class="hov">ABOUT</span></li>
+            <li><span class="hov">GET INVOLVED</span></li>
+            <li><span class="hov">BLOG</span></li>
+            <li><span class="hov">CONTACT</span></li>
+            <li><span class="hov" class="iku_bookFont">ES</span></li>
             <li style="margin-right:0"><%= image_tag("iconContact.png", :alt => "contact icon") %></li>
         </ul>
     </nav>
 </div>
 <div class="iku_mainVideo"></div>
 <div class="iku_mv_descriptionBox">
-    <%= image_tag("buttonPlay.png", :alt => "ikusi logo", :class => "iku_playButton") %></br>
+    <%= image_tag("buttonPlay.png", :alt => "ikusi logo", :id => "pyBut", :class => "iku_playButton") %></br>
     <span class="iku_mvTitle">NI MÁS NI MENOS</span></br>
     <span class="iku_mvsubTitle">5 HISTORIAS 5 VIDAS 5 SUEÑOS</span>
 </div>
@@ -23,3 +23,19 @@
     <span class="iku_moreInfoButt"> ^ </span>
     <span class="iku_info iku_lightFont">T.-59823365789 | info@ikusi.org | Pablo de María 2345 | Montevideo, Uruguay</span>
 </div>
+
+<div id="vdPlayer"></div>
+<div id="bkdPly"></div>
+
+<script>
+function onYouTubeIframeAPIReady() {
+    var playerCtrl = new YouTubeController("vdPlayer");
+    var video1 = {"youTubeId": "m4xsh1p40-M","coverId":"pyBut","description": "videoDescription"};
+    playerCtrl.add( video1 );
+}
+// youTube library
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+</script>

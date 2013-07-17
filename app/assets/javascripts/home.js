@@ -1,9 +1,14 @@
 
 /** 
 functions:
+
 function YouTubeController(containerId);
 this.loadVideo = function(videoIdd);
 this.add = function(video);
+
+notes:
+I can use this function to change video id.
+player.loadVideoById(videoId:String, startSeconds:Number, suggestedQuality:String):Void
  */  
 /*** 
  var tag = document.createElement('script'); 
@@ -67,7 +72,7 @@ function YouTubeController(containerId){
   
     //play the first video that we have. 
     this.playVideo = function(){ 
-  
+
         if (!this.selectedVideo){ 
             this.selectedVideo = this.currentVideos[0]; 
         } 

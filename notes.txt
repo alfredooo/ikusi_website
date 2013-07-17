@@ -85,3 +85,6 @@ Datos {
 	gmail & analitycs:
 	webmaster@ikusi.org
 	15junio2013	}
+    
+    bug oswald:
+    https://code.google.com/p/googlefontdirectory/issues/detail?id=152

@@ -15,9 +15,9 @@ logoEN.png: logoEN-3c7d7739899d0cc783557d0a4b7f56ed.png
 logoEN/index.png: logoEN-3c7d7739899d0cc783557d0a4b7f56ed.png
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
-application.js: application-1b13569e9620782f423d4cd3ce931750.js
-application/index.js: application-1b13569e9620782f423d4cd3ce931750.js
-application.css: application-a03200357971728c8630f109cbc1a6c5.css
-application/index.css: application-a03200357971728c8630f109cbc1a6c5.css
+application.js: application-cbdf344988fbf7213a08474dda046281.js
+application/index.js: application-cbdf344988fbf7213a08474dda046281.js
+application.css: application-2561067640abb96e13a42cb8235b614c.css
+application/index.css: application-2561067640abb96e13a42cb8235b614c.css
 jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map

@@ -1,16 +1,22 @@
 openshift (admin/G2RphKr-JhlP)
 
 pasos muy proximos{
-
-    -> trabajar en el menu
-	-> subir primera version de rails app con elementos de ikusi 	}
+    
+    -> 
+    -> aplicar plugin para video responsive.
+    -> Sass para diseño
+    
+    -> trabajar en el menu ( casi done )
+	-> subir primera version de rails app con elementos de ikusi ( done )}
 
 cosas para hacer:
 	-> investigar jetkins para openshift?
 	-> usar padrino del lado del servidor? o libreria para api? ( creo voy a ir por grape, rack y actionrecord)
+        -> en duda, creo que voy a usar rails puro nomás...
+        
 	-> Angular para el backend? o algo q lea modelo y haga backend?fe
 	-> usar PostGreSQL
-	-> responsive? -> fundation?
+	-> responsive? -> fundation? => creo que voy a usar sass y media queries.
 	-> personalisar botones. ( subtitulos )
 
 No olvidar:

@@ -1,4 +1,4 @@
-/** should be in utilities **/
+/** should be in utilities **********************************************************/
 
 /* firefox bind functionality */
 if (!Function.prototype.bind) {
@@ -24,67 +24,46 @@ if (!Function.prototype.bind) {
     return fBound;
   };
 }
-/********/
+/******* end utils *******************************************************************/
 
-
-/** 
-functions:
-
-function YouTubeController(containerId);
-this.loadVideo = function(videoIdd);
-this.add = function(video);
-
-notes:
-I can use this function to change video id.
-player.loadVideoById(videoId:String, startSeconds:Number, suggestedQuality:String):Void
- */  
 /*** 
  var tag = document.createElement('script'); 
  tag.src = "https://www.youtube.com/iframe_api"; 
  var firstScriptTag = document.getElementsByTagName('script')[0]; 
  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag); 
  */
-function YouTubeController(containerId){ 
+function YouTubeController(containerId){
   
     this.currentVideos = []; 
     this.selectedVideo = null; 
     this.player = null; 
     this.displayImage = ""; 
-    this.containerId = containerId; 
-    this.onPlayerReady = function(event) { 
-        //event.target.playVideo(); 
-    }; 
-    this.onPlayerStateChange = function(event) { 
-
-        this.player.setPlaybackQuality("hd720");  //hd1080
-    } 
-    var self = this;
-    this.player = new YT.Player( this.containerId, { 
-        height: 'auto',
-        width: 'auto', 
-        suggestedQuality:"hd720", 
-        "videoId":"ejWGThDRllE", 
-        playerVars: { 'autoplay': 0, 'controls': 1,'autohide':1,rel:0,hd:1 }, 
-        events: { 
-            'onReady': self.onPlayerReady.bind(self), 
-            'onStateChange': self.onPlayerStateChange.bind(self)
-        }
-    });
+    this.containerId = containerId;     
+    this.container = document.getElementById(this.containerId); 
+    this.container.style.display = "none";
+    this.runningJavascript;
     
-    var container = document.getElementById(this.containerId); 
-    container.style.display = "none"; 
+    this.playerLoaded = false;
+    this.playVideoNow = false;
   
-    this.loadVideo = function(videoIdd){ 
-/* 
-        this.backgroundImage = document.createElement('img'); 
-        this.backgroundImage.src = "/images/IMG_0808SIZE.jpg"; 
-        document.getElementById("coverImage").appendChild(this.backgroundImage); 
-        this.backgroundImage.style.width = "700px"; 
-        this.backgroundImage.style.height = "470px"; 
-  
-        var self = this; 
-        this.backgroundImage.addEventListener("click",function(){self.playVideo();}); 
-*/
+    this.loadVideoPlayer = function(videoIdd){ 
+
+        if (!this.playerLoaded){
+            
+            var self = this;
+            this.player = new YT.Player( this.containerId, {
+                height: 'auto',
+                width: 'auto', 
+                suggestedQuality:"hd720", 
+                "videoId":"ejWGThDRllE", 
+                playerVars: { 'autoplay': 0, 'controls': 1,'autohide':1,rel:0,hd:1 }, 
+                events: { 
+                    'onReady': self.onPlayerReady.bind(self), 
+                    'onStateChange': self.onPlayerStateChange.bind(self)
+                }
+            });
+            this.container.style.display = "none";
+        }
     }; 
     
     /**
@@ -92,11 +71,20 @@ function YouTubeController(containerId){
      */
     this.hideVideo = function(){
         
-        this.player.pauseVideo();
-        var videoContainer = document.getElementById("vdPlayer");
-        $('#'+this.containerId).fadeOut( function() {
-            $('#bkdPly').fadeOut();
-        });
+        this.player.stopVideo();
+        this.player.destroy();
+        $('#bkdPly').fadeOut();
+        
+        this.playerLoaded = false;
+        this.playVideoNow = false;
+        setTimeout(function(){
+            this.loadVideoPlayer()
+        }.bind(this),300);
+        
+        if (this.runningJavascript){
+            window.clearInterval(this.runningJavascript);
+            this.runningJavascript = null;
+        }
     }
   
     /** 
@@ -108,7 +96,7 @@ function YouTubeController(containerId){
      * "description": "videoDescription"}      <- optional 
      **/
     this.add = function(video){ 
-  
+
         this.currentVideos.push(video); 
         if (video.coverId){ 
             var self = this; 
@@ -117,28 +105,57 @@ function YouTubeController(containerId){
         } 
         return this; 
     }; 
-    //play the first video that we have. 
-    this.playVideo = function(){ 
-
+    
+    this.onPlayerReady = function(event) {
+        
+        this.playerLoaded = true;
+        if ( this.playVideoNow ){
+            this.reproduceTheVideo();
+        }
+    }
+    
+    this.reproduceTheVideo = function(){
+        
         if (!this.selectedVideo){ 
             this.selectedVideo = this.currentVideos[0]; 
-        } 
-  
-        /* I need to work on how to disapear this! when compleated! */
+        }
+
         this.player.videoId = this.selectedVideo.youTubeId; 
         this.player.playVideo(); 
   
         var self = this; 
         setTimeout(function(){ 
             if (self.selectedVideo.coverId){ 
-                var coverImage = document.getElementById(self.selectedVideo.coverId); 
-                //coverImage.style.display = "none"; 
+                var coverImage = document.getElementById(self.selectedVideo.coverId);  
                 $('#bkdPly').fadeIn( function() {
-                    // Animation complete.
                     document.getElementById(self.containerId).style.display = "block";
-                  });
-                //document.getElementById("bkdPly").style.display = "block"; 
-            } 
+                });
+            }
         },300)
+        
+        this.runningJavascript = setInterval(function(){
+            
+            window.focus();
+            // Remove focus from any focused element
+            if (document.activeElement) {
+                document.activeElement.blur();
+            }
+        },500);
     }
+    
+    this.onPlayerStateChange = function(event) { 
+
+        this.player.setPlaybackQuality("hd720");  //hd1080
+    }
+
+    this.playVideo = function(){ 
+
+        if (!this.playerLoaded){
+            this.playVideoNow = true;
+        } else {
+            this.reproduceTheVideo(); 
+        }
+    }
+    
+    this.loadVideoPlayer();
 }

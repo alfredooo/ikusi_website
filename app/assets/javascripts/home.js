@@ -1,3 +1,31 @@
+/** should be in utilities **/
+
+/* firefox bind functionality */
+if (!Function.prototype.bind) {
+  Function.prototype.bind = function (oThis) {
+    if (typeof this !== "function") {
+      // closest thing possible to the ECMAScript 5 internal IsCallable function
+      throw new TypeError("Function.prototype.bind - what is trying to be bound is not callable");
+    }
+
+    var aArgs = Array.prototype.slice.call(arguments, 1), 
+        fToBind = this, 
+        fNOP = function () {},
+        fBound = function () {
+          return fToBind.apply(this instanceof fNOP && oThis
+                                 ? this
+                                 : oThis,
+                               aArgs.concat(Array.prototype.slice.call(arguments)));
+        };
+
+    fNOP.prototype = this.prototype;
+    fBound.prototype = new fNOP();
+
+    return fBound;
+  };
+}
+/********/
+
 
 /** 
 functions:
@@ -23,17 +51,26 @@ function YouTubeController(containerId){
     this.player = null; 
     this.displayImage = ""; 
     this.containerId = containerId; 
+    this.onPlayerReady = function(event) { 
+        //event.target.playVideo(); 
+    }; 
+    this.onPlayerStateChange = function(event) { 
+
+        this.player.setPlaybackQuality("hd720");  //hd1080
+    } 
+    var self = this;
     this.player = new YT.Player( this.containerId, { 
-        height: 'auto', 
+        height: 'auto',
         width: 'auto', 
         suggestedQuality:"hd720", 
-        "videoId":"m4xsh1p40-M", 
-        playerVars: { 'autoplay': 0, 'controls': 1,'autohide':1,rel:0 }, 
+        "videoId":"ejWGThDRllE", 
+        playerVars: { 'autoplay': 0, 'controls': 1,'autohide':1,rel:0,hd:1 }, 
         events: { 
-            'onReady': this.onPlayerReady, 
-            'onStateChange': this.onPlayerStateChange 
-        } 
-    }); 
+            'onReady': self.onPlayerReady.bind(self), 
+            'onStateChange': self.onPlayerStateChange.bind(self)
+        }
+    });
+    
     var container = document.getElementById(this.containerId); 
     container.style.display = "none"; 
   
@@ -49,6 +86,18 @@ function YouTubeController(containerId){
         this.backgroundImage.addEventListener("click",function(){self.playVideo();}); 
 */
     }; 
+    
+    /**
+     * hides the current video and we pause it too.
+     */
+    this.hideVideo = function(){
+        
+        this.player.pauseVideo();
+        var videoContainer = document.getElementById("vdPlayer");
+        $('#'+this.containerId).fadeOut( function() {
+            $('#bkdPly').fadeOut();
+        });
+    }
   
     /** 
      * if the cover is specified, will attach an on click listener. 
@@ -68,8 +117,6 @@ function YouTubeController(containerId){
         } 
         return this; 
     }; 
-  
-  
     //play the first video that we have. 
     this.playVideo = function(){ 
 
@@ -91,15 +138,7 @@ function YouTubeController(containerId){
                     document.getElementById(self.containerId).style.display = "block";
                   });
                 //document.getElementById("bkdPly").style.display = "block"; 
-                 
             } 
-        },300) 
-    } 
-    this.onPlayerReady = function(event) { 
-        //event.target.playVideo(); 
-    }; 
-    this.onPlayerStateChange = function(event) { 
-  
-        this.player.setPlaybackQuality("hd720");  //hd1080 
-    } 
+        },300)
+    }
 }

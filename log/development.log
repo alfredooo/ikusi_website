@@ -28990,3 +28990,1693 @@ Connecting to database specified by database.yml
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (64.3ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (36.5ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (3.5ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Connecting to database specified by database.yml
+
+
+Started GET "/css/normalize.min.css" for 127.5.16.1 at 2013-07-17 20:08:42 -0400
+
+ActionController::RoutingError (No route matches [GET] "/css/normalize.min.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/stickshift/51bec37d5973ca99d7000777/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.0ms)
+
+
+Started GET "/css/main.css" for 127.5.16.1 at 2013-07-17 20:08:42 -0400
+
+ActionController::RoutingError (No route matches [GET] "/css/main.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/stickshift/51bec37d5973ca99d7000777/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/vendor/modernizr-2.6.2.min.js" for 127.5.16.1 at 2013-07-17 20:08:42 -0400
+
+ActionController::RoutingError (No route matches [GET] "/vendor/modernizr-2.6.2.min.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/stickshift/51bec37d5973ca99d7000777/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/js/plugins.js" for 127.5.16.1 at 2013-07-17 20:08:42 -0400
+
+ActionController::RoutingError (No route matches [GET] "/js/plugins.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/stickshift/51bec37d5973ca99d7000777/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/js/main.js" for 127.5.16.1 at 2013-07-17 20:08:42 -0400
+
+ActionController::RoutingError (No route matches [GET] "/js/main.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/stickshift/51bec37d5973ca99d7000777/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:08:51 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Compiled home.css  (112ms)  (pid 4583)
+Compiled main.css  (0ms)  (pid 4583)
+Compiled normalize.min.css  (0ms)  (pid 4583)
+Compiled scaffolds.css  (3ms)  (pid 4583)
+Compiled application.css  (291ms)  (pid 4583)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (10ms)  (pid 4583)
+Completed 200 OK in 513ms (Views: 512.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:08:52 -0400
+Served asset /home.css - 200 OK (3ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:08:52 -0400
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:08:52 -0400
+Served asset /normalize.min.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:08:52 -0400
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:08:52 -0400
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:09:01 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 176ms (Views: 175.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:09:02 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:10:50 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled home.css  (69ms)  (pid 4583)
+Compiled application.css  (2ms)  (pid 4583)
+Completed 200 OK in 456ms (Views: 456.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:10:51 -0400
+Served asset /home.css - 200 OK (5ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:10:51 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:10:51 -0400
+Served asset /normalize.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:10:51 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:10:51 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:11:26 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled home.css  (111ms)  (pid 4583)
+Compiled application.css  (87ms)  (pid 4583)
+Completed 200 OK in 500ms (Views: 499.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:11:27 -0400
+Served asset /home.css - 200 OK (4ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:11:27 -0400
+Served asset /normalize.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:11:28 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:11:28 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:11:28 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:15:16 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (1ms)  (pid 4583)
+Completed 200 OK in 326ms (Views: 325.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:15:17 -0400
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:15:17 -0400
+Served asset /main.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:15:17 -0400
+Served asset /normalize.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:15:17 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:15:17 -0400
+Served asset /home.js - 200 OK (3ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:15:38 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 84ms (Views: 83.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:15:39 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:15:39 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:15:39 -0400
+Served asset /normalize.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:15:39 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:15:39 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:15:47 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 93ms (Views: 92.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:15:48 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:15:48 -0400
+Served asset /main.css - 200 OK (33ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:15:48 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:15:48 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:15:48 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:17:25 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 83ms (Views: 83.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:17:26 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:17:26 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:17:26 -0400
+Served asset /normalize.min.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:17:26 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:17:26 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:19:19 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 365ms (Views: 364.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:19:20 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:19:20 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:19:20 -0400
+Served asset /normalize.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:19:20 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:19:20 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:20:12 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (1ms)  (pid 4583)
+Completed 200 OK in 227ms (Views: 227.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:20:13 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:20:13 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:20:13 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:20:13 -0400
+Served asset /home.js - 200 OK (76ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:20:13 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:20:53 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 199ms (Views: 198.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:20:54 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:20:54 -0400
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:20:54 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:20:54 -0400
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:20:54 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:21:04 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 72ms (Views: 71.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:21:05 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:21:05 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:21:05 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:21:05 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:21:06 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:22:31 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (1ms)  (pid 4583)
+Completed 200 OK in 158ms (Views: 157.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:22:32 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:22:32 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:22:32 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:22:32 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:22:32 -0400
+Served asset /home.js - 200 OK (3ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:23:06 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:23:07 -0400
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:23:07 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:23:07 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:23:07 -0400
+Served asset /normalize.min.css - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:23:07 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:25:49 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (1ms)  (pid 4583)
+Completed 200 OK in 222ms (Views: 221.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:25:51 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:25:51 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:25:51 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:25:51 -0400
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:25:51 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:26:56 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 75ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:26:57 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:27:09 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 193ms (Views: 192.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:27:10 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:27:10 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:27:10 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:27:10 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:27:10 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:27:20 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:27:21 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:27:21 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:27:21 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:27:21 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:27:21 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:27:35 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 19ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:27:36 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:27:36 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:27:36 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:27:36 -0400
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:27:36 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:28:24 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 125ms (Views: 124.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:28:25 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:28:25 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:28:25 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:28:25 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:28:25 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:29:09 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 71ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:29:10 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:29:10 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:29:10 -0400
+Served asset /normalize.min.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:29:10 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:29:10 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:30:22 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 215ms (Views: 214.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:30:23 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:30:23 -0400
+Served asset /normalize.min.css - 200 OK (75ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:30:23 -0400
+Served asset /scaffolds.css - 200 OK (5ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:30:23 -0400
+Served asset /main.css - 200 OK (6ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:30:23 -0400
+Served asset /home.js - 200 OK (14ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:30:58 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 70ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:30:59 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:30:59 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:30:59 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:30:59 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:30:59 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:32:59 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 220ms (Views: 219.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:33:00 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:33:00 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:33:00 -0400
+Served asset /main.css - 200 OK (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:33:00 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:33:00 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:34:49 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (1ms)  (pid 4583)
+Completed 200 OK in 207ms (Views: 207.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:34:50 -0400
+Served asset /home.js - 200 OK (4ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:35:24 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:35:24 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:35:24 -0400
+Served asset /main.css - 200 OK (1ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:35:24 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:35:24 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:35:25 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:37:40 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (4ms)  (pid 4583)
+Completed 200 OK in 223ms (Views: 222.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:37:41 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:37:41 -0400
+Served asset /main.css - 200 OK (53ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:37:41 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:37:41 -0400
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:37:41 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:39:34 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (1ms)  (pid 4583)
+Completed 200 OK in 296ms (Views: 295.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:39:35 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:39:35 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:39:35 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:39:35 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:39:35 -0400
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:39:57 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (2ms)  (pid 4583)
+Completed 200 OK in 174ms (Views: 173.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:39:58 -0400
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:39:58 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:39:58 -0400
+Served asset /normalize.min.css - 200 OK (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:39:58 -0400
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:39:58 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:40:44 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (1ms)  (pid 4583)
+Completed 200 OK in 157ms (Views: 156.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:40:45 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:40:45 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:40:45 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:40:45 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:40:45 -0400
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:46:15 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (1ms)  (pid 4583)
+Completed 200 OK in 489ms (Views: 488.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:46:16 -0400
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:46:16 -0400
+Served asset /normalize.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:46:16 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:46:16 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:46:16 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:46:44 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (1ms)  (pid 4583)
+Completed 200 OK in 143ms (Views: 142.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:46:45 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:46:45 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:46:45 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:46:45 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:46:45 -0400
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:47:33 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 61ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:47:34 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:47:34 -0400
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:47:34 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:47:34 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:47:34 -0400
+Served asset /home.js - 200 OK (74ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:48:14 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled home.js  (8ms)  (pid 4583)
+Compiled application.js  (9ms)  (pid 4583)
+Completed 200 OK in 298ms (Views: 297.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 20:48:15 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 20:48:15 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 20:48:15 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 20:48:15 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:48:15 -0400
+Served asset /home.js - 200 OK (12ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 20:49:27 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (1ms)  (pid 4583)
+Completed 200 OK in 134ms (Views: 134.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 20:49:28 -0400
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:01:42 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (2ms)  (pid 4583)
+Completed 200 OK in 295ms (Views: 294.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:01:44 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:01:44 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:01:44 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:01:44 -0400
+Served asset /home.js - 200 OK (5ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:01:44 -0400
+Served asset /normalize.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:01:52 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 71ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:01:53 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:01:53 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:01:53 -0400
+Served asset /normalize.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:01:53 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:01:53 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:02:33 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 47ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:02:34 -0400
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:02:34 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:02:34 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:02:35 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:02:35 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:04:14 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (1ms)  (pid 4583)
+Completed 200 OK in 155ms (Views: 154.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:04:15 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:04:15 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:04:15 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:04:15 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:04:15 -0400
+Served asset /home.js - 200 OK (3ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:04:41 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 285ms (Views: 284.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:04:42 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:04:42 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:04:42 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:04:42 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:04:42 -0400
+Served asset /scaffolds.css - 200 OK (5ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:05:51 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 67ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:05:52 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:05:52 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:05:52 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:05:52 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:05:52 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:06:27 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 164ms (Views: 164.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:06:28 -0400
+Served asset /home.js - 304 Not Modified (6ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:07:07 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:07:08 -0400
+Served asset /home.css - 200 OK (5ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:07:08 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:07:08 -0400
+Served asset /normalize.min.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:07:08 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:07:08 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:09:15 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 114ms (Views: 114.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:09:16 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:09:16 -0400
+Served asset /normalize.min.css - 200 OK (40ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:09:16 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:09:16 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:09:16 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:11:08 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 73ms (Views: 72.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:11:09 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:11:09 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:11:09 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:11:09 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:11:09 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:11:28 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 131ms (Views: 130.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:11:29 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:11:29 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:11:29 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:11:29 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:11:29 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:12:02 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 740ms (Views: 739.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:12:03 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:12:03 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:12:03 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:12:03 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:12:03 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:12:17 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 34ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:12:17 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:12:24 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:12:25 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:13:12 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 82ms (Views: 81.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:13:12 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:14:11 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 46ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:14:27 -0400
+Served asset /normalize.min.css - 200 OK (10ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:14:27 -0400
+Served asset /home.js - 200 OK (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:14:27 -0400
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:14:27 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:14:27 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:15:00 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:15:01 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:15:01 -0400
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:15:01 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:15:01 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:15:01 -0400
+Served asset /main.css - 200 OK (1ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:15:17 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 208ms (Views: 207.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:15:18 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:15:18 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:15:18 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:15:18 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:15:18 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:15:29 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:15:30 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:15:30 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:15:30 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:15:30 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:15:30 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:15:42 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 129ms (Views: 129.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:15:43 -0400
+Served asset /home.css - 200 OK (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:15:43 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:15:43 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:15:43 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:15:43 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:16:06 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 22ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:16:06 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:16:06 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:16:06 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:16:06 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:16:06 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:20:46 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (2ms)  (pid 4583)
+Completed 200 OK in 560ms (Views: 559.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:20:48 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:20:48 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:20:48 -0400
+Served asset /home.js - 200 OK (4ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:20:48 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:20:48 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:21:05 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 97ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:21:07 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:21:07 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:21:07 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:21:07 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:21:07 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:21:31 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (1ms)  (pid 4583)
+Completed 200 OK in 157ms (Views: 156.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:21:32 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:21:32 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:21:32 -0400
+Served asset /normalize.min.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:21:32 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:21:32 -0400
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:24:08 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (1ms)  (pid 4583)
+Completed 200 OK in 490ms (Views: 490.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:24:10 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:24:10 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:24:10 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:24:10 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:24:10 -0400
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:24:44 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 92ms (Views: 91.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:24:45 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:24:45 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:24:45 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:24:45 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:24:45 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:26:39 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (2ms)  (pid 4583)
+Completed 200 OK in 307ms (Views: 307.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.16.1 at 2013-07-17 21:26:40 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.16.1 at 2013-07-17 21:26:40 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.16.1 at 2013-07-17 21:26:40 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:26:40 -0400
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.16.1 at 2013-07-17 21:26:41 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.5.16.1 at 2013-07-17 21:28:12 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled home.js  (0ms)  (pid 4583)
+Compiled application.js  (1ms)  (pid 4583)
+Completed 200 OK in 125ms (Views: 124.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.16.1 at 2013-07-17 21:28:12 -0400
+Served asset /home.js - 200 OK (2ms)

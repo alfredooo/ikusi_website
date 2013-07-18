@@ -28,14 +28,23 @@
 <div id="bkdPly"></div>
 
 <script>
+var playerCtrl;
 function onYouTubeIframeAPIReady() {
-    var playerCtrl = new YouTubeController("vdPlayer");
-    var video1 = {"youTubeId": "m4xsh1p40-M","coverId":"pyBut","description": "videoDescription"};
+    playerCtrl = new YouTubeController("vdPlayer");
+    var video1 = {"youTubeId": "PLzfcpxK7Y8rQMRErZrj_h-ENuMMDXs98r","coverId":"pyBut","description": "videoDescription"};
     playerCtrl.add( video1 );
 }
-// youTube library
+
+//***** youTube library ********/
 var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+//******************************/
+
+$(document).on('keydown', function(e){
+    if(e.which==27){ // ESC
+         playerCtrl.hideVideo();
+    }
+});
 </script>

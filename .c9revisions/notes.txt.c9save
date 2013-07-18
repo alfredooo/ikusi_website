@@ -44,3 +44,4 @@
 {"ts":1373759171706,"patch":[[{"diffs":[[0,"80px =>\r"],[1,"\n \r"],[0,"\n\r\nresol"]],"start1":581,"start2":581,"length1":16,"length2":19}]],"length":2849,"saved":false}
 {"ts":1373759172512,"patch":[[{"diffs":[[0,"px =>\r\n "],[1,"otro "],[0,"\r\n\r\nreso"]],"start1":583,"start2":583,"length1":16,"length2":21}]],"length":2854,"saved":false}
 {"ts":1373759175046,"patch":[[{"diffs":[[0,"\r\n otro "],[1,"diseño:"],[0,"\r\n\r\nreso"]],"start1":588,"start2":588,"length1":16,"length2":23}]],"length":2861,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1374106640950,"patch":[[{"diffs":[[0,"io2013\t}"],[1,"\r\n    \r\n    bug oswald:\r\n    https://code.google.com/p/googlefontdirectory/issues/detail?id=152"]],"start1":2853,"start2":2853,"length1":8,"length2":103}]],"length":2956,"saved":false}

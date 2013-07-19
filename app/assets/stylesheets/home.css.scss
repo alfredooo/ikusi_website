@@ -44,7 +44,7 @@ body{
     left: 0;  
     right: 0; 
     margin: auto 30px;}
-.iku_hed .iku_logo {
+.iku_hed .logoWrapper {
     position: absolute;  
     top: 0;
     bottom: 0;  
@@ -64,9 +64,9 @@ body{
     position: relative;
     top: 104px;
     position: fixed;
-    margin-top: 0;}
+    margin-top: 0;}/*
 .iku_playButton{
-    width: 94px;}
+    width: 94px;}*/
 .iku_mv_descriptionBox{
     width: auto;
     height: 170px;
@@ -128,15 +128,90 @@ body{
     bottom: 0px;
     height: 100%;
 }
+.imgWrap{
+    overflow: hidden;
+    position: relative;
+}
+.logoWrapper{
+    
+	height: 75px;
+	width: 140px;
+}
+.contactIconWarapper{
+    height: 24px;
+	width: 24px;
+}
+.contactIconWarapper img{
+    
+    position: relative;
+    top: -187px;
+    left: -144px;
+}
+.cpybutWarapper{
+    margin-left: auto;
+    margin-right: auto;
+    height: 94px;
+    width: 94px;
+}
+
+.cpybutWarapper img{
+    position: relative;
+    top: -75px;
+    left: -50px;
+}
+.cpybutWarapper img:hover{
+    top: -169px;
+    cursor: pointer;
+}
+.rightButtons{
+    width:50px;
+    height:50px;
+    margin: 2px;
+    cursor: pointer;
+}
+.iku_right_buttons{
+    height: 154px;
+    width: 55px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    z-index: 13;
+}
+.iku_fbWrap img{
+    position: relative;
+    top: -175px;
+    left: 0px;
+}
+.iku_twWrap img{
+    position: relative;
+    top: -75px;
+    left: 0px;
+}
+.iku_donateWrap img{
+    position: relative;
+    top: -75px;
+    left: -144px;
+    z-index:500;
+}
+
+/********** hover*****************/
+.iku_fbWrap img:hover{
+    top: -225px;
+}
+.iku_twWrap img:hover{
+    top: -125px;
+}
+.iku_donateWrap img:hover{
+    top: -125px;
+}
 
 /*** media queries ***/
 @media only screen and (max-width: 780px) {
     body{
         font-size: 12px;
         /*font-size: 1.0vw;*/
-    }
-    #vdPlayer{
-        height: 83.5%;
     }
 }
 /*********************/

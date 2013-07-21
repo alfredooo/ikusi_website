@@ -1,0 +1,83 @@
+openshift (admin/G2RphKr-JhlP)
+
+pasos muy proximos{
+    
+    -> 
+    -> aplicar plugin para video responsive.
+    -> Sass para diseño
+    
+    -> trabajar en el menu ( casi done )
+    -> subir primera version de rails app con elementos de ikusi ( done )}
+
+cosas para hacer:
+	-> investigar jetkins para openshift?
+	-> usar padrino del lado del servidor? o libreria para api? ( creo voy a ir por grape, rack y actionrecord)
+        -> en duda, creo que voy a usar rails puro nomás...
+        
+	-> Angular para el backend? o algo q lea modelo y haga backend?fe
+	-> usar PostGreSQL
+	-> responsive? -> fundation? => creo que voy a usar sass y media queries.
+	-> personalisar botones. ( subtitulos )
+
+No olvidar:
+	IMAGE RESIZING (RESS)
+
+cambios en diseño en base a resolución:
+ancho menor a 780px =>
+ otro diseño:
+
+resoluciones más utilizadas:
+1366x768
+1440x900
+1280x800
+
+links interesantes:
+
+Frameworks interesantes {
+    ( variables en css )    http://sass-lang.com/
+	( estadisticas online  - onBackgroud.) http://piwik.org/
+    ( slider con cosas q se mueven adentro ) - http://tympanus.net/Development/ParallaxContentSlider/index.html
+	( ajuste de columnas muy bueno y animación de reajuste ) -> http://masonry.desandro.com/index.html
+	( ajustar bien los videos responsive, muy bueno tb ) -> http://fitvidsjs.com/
+	( pequeñas slideshow o esconder cosas para mostrar on hober) -> http://jquery.malsup.com/cycle/
+	( problems with ie and css ) -> http://selectivizr.com/
+    ( mover las hojas tipo libro ) -> http://www.turnjs.com/
+    https://github.com/mattkersley/Responsive-Menu
+    http://pep.briangonzalez.org/
+    
+	boilerplate {
+		http://responsiveboilerplate.com/
+		http://www.initializr.com/	}}
+
+Articulos {
+	https://micahflee.com/2013/02/people-seem-to-care-about-why-i-switched-from-ubuntu-to-debian/
+	http://mobile.smashingmagazine.com/2013/05/14/providing-the-best-mobile-user-experience-possible/	}
+
+
+Paginas de ejemplo{
+	http://designedtomove.org/
+    http://etchapps.com (diseño)
+    http://www.nike.com/us/en_us/c/better-world (ventanitas?)
+    http://thef.com.uy/#work_detail/88_johnnie-walker-dj-experience (home?gentee?)
+    http://www.alexanderalmstrom.com/work/
+    http://2xelliott.co.uk/}
+
+serverNotes{
+    rails server -p $PORT -b $IP
+    rails generate scaffold Video lenguage:string fecha:date src:string
+    rails generate scaffold Post name:string title:string content:text
+}
+
+Datos {
+	servidor viejo dns ikusi: 	68.178.232.100
+	servidor nuevo ikusi: 		https://wordpress-ikusiweb.rhcloud.com/
+
+    Fuente de fotos:
+    http://www.flickr.com/photos/ikusiphotos/
+    
+    repositorio github:
+    ssh: git@github.com:alfredooo/ikusi_website.git
+    https://github.com/alfredooo/ikusi_website.git
+
+    bug oswald:
+    https://code.google.com/p/googlefontdirectory/issues/detail?id=152

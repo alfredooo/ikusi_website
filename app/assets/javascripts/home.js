@@ -116,7 +116,9 @@ function YouTubeController(containerId){
     this.displayImage = ""; 
     this.containerId = containerId;     
     this.container = document.getElementById(this.containerId); 
-    this.container.style.display = "none";
+    this.container.style.width = "1px";
+    this.container.style.height = "1px";
+    //this.container.style.display = "none";
     this.runningJavascript;
     
     this.playerLoaded = false;
@@ -132,13 +134,15 @@ function YouTubeController(containerId){
                 width: 'auto', 
                 suggestedQuality:"hd720", 
                 "videoId":"ejWGThDRllE", 
-                playerVars: { 'autoplay': 0, 'controls': 1,'autohide':1,rel:0,hd:1 }, 
+                playerVars: { 'autoplay': 0, 'controls': 0,'autohide':1,rel:0,hd:1 }, 
                 events: { 
                     'onReady': self.onPlayerReady.bind(self), 
                     'onStateChange': self.onPlayerStateChange.bind(self)
                 }
             });
-            this.container.style.display = "none";
+            this.container = document.getElementById(this.containerId);
+            this.container.style.width = "1px";
+            this.container.style.height = "1px";
         }
     }; 
     
@@ -204,18 +208,22 @@ function YouTubeController(containerId){
             if (self.selectedVideo.coverId){ 
                 var coverImage = document.getElementById(self.selectedVideo.coverId);  
                 $('#bkdPly').fadeIn( function() {
-                    document.getElementById(self.containerId).style.display = "block";
+                    var playerr = document.getElementById(self.containerId);
+                    playerr.style.display = "block";
+                    playerr.style.width = "100%";
+                    playerr.style.height = "100%";
                 });
             }
-        },300)
+        }.bind(this),300)
         
         this.runningJavascript = setInterval(function(){
             
-            window.focus();
+            window.focus(); 
             // Remove focus from any focused element
             if (document.activeElement) {
                 document.activeElement.blur();
             }
+                      
         },500);
     }
     

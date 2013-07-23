@@ -3,3 +3,6 @@
 {"ts":1372645083868,"patch":[[{"diffs":[[0,"=> '"],[-1,"welc"],[1,"h"],[0,"ome#"]],"start1":1492,"start2":1492,"length1":12,"length2":9}]],"length":1803,"saved":false}
 {"ts":1372645693422,"patch":[[{"diffs":[[0,"e/index\""],[1,"\n   get \"home/index\""],[0,"\n\n  # Th"]],"start1":44,"start2":44,"length1":16,"length2":36}]],"length":1823,"saved":false}
 {"ts":1372645697195,"patch":[[{"diffs":[[0,"me/index"],[1,"Old"],[0,"\"\n\n  # T"]],"start1":63,"start2":63,"length1":16,"length2":19}]],"length":1826,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1374423645304,"patch":[[{"diffs":[[0,"ndex\"\n  "],[-1," "],[0,"get \"hom"]],"start1":47,"start2":47,"length1":17,"length2":16},{"diffs":[[0,"ndex"],[-1,"Old"],[1,"2"],[0,"\"\n\n "]],"start1":66,"start2":66,"length1":11,"length2":9}]],"length":1823,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1374553211568,"patch":[[{"diffs":[[0,"ml.\n"],[-1,"  root :to => 'home#index'"],[0,"\n\n  "]],"start1":1497,"start2":1497,"length1":34,"length2":8}]],"length":1797,"saved":false}
+{"ts":1374553212683,"patch":[[{"diffs":[[0,".html.\n\n"],[-1,"\n"],[0,"  # See "]],"start1":1494,"start2":1494,"length1":17,"length2":16}]],"length":1796,"saved":false}

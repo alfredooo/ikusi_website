@@ -32,6 +32,7 @@ resoluciones más utilizadas:
 1280x800
 
 links interesantes:
+ejemplos de youTube: https://developers.google.com/youtube/youtube_player_demo?hl=es-419
 
 Frameworks interesantes {
     ( variables en css )    http://sass-lang.com/

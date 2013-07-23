@@ -134,7 +134,7 @@ function YouTubeController(containerId){
                 width: 'auto', 
                 suggestedQuality:"hd720", 
                 "videoId":"ejWGThDRllE", 
-                playerVars: { 'autoplay': 0, 'controls': 0,'autohide':1,rel:0,hd:1 }, 
+                playerVars: { 'autoplay': 0, 'controls': 1,'autohide':1,rel:0,hd:1 }, 
                 events: { 
                     'onReady': self.onPlayerReady.bind(self), 
                     'onStateChange': self.onPlayerStateChange.bind(self)
@@ -228,8 +228,8 @@ function YouTubeController(containerId){
     }
     
     this.onPlayerStateChange = function(event) { 
-
-        this.player.setPlaybackQuality("hd720");  //hd1080
+        //alert("chad");
+        //this.player.setPlaybackQuality("hd720");  //hd1080
     }
 
     this.playVideo = function(){ 

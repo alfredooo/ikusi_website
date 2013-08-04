@@ -17,9 +17,7 @@ body{
     font-weight: bold;
     cursor:pointer;
 }    
-.minWidth{
-    min-width: 770px;
-}
+
 .iku_hed{
     background: none repeat scroll 0% 0% #3399cc;
     width: 100%;
@@ -101,8 +99,6 @@ body{
     margin-top: 4px;
     margin-left: 30px;
     float:left;
-    position:relative;
-    top:-30px;
 }
 .iku_footer .iku_moreInfoButt{
     position: relative;
@@ -113,8 +109,6 @@ body{
     float: right;
     margin-right: 30px;
     margin-top: 4px;
-    position:relative;
-    top:-30px;
 }
 #bkdPly{
     width:100%;
@@ -201,17 +195,7 @@ body{
     left: -144px;
     z-index:500;
 }
-.moreWrapper{
-    height: 30px;
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.moreWrapper img{
-    position: relative;
-    top: -75px;
-    left: -144px;
-}
+
 /********** hover*****************/
 .iku_fbWrap img:hover{
     top: -225px;

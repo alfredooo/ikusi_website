@@ -37046,3 +37046,118 @@ Served asset /application.js - 200 OK (0ms)
 
 Started GET "/assets/sprites.png" for 127.12.98.129 at 2013-07-18 22:26:26 -0400
 Served asset /sprites.png - 200 OK (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/home/index" for 127.12.74.1 at 2013-08-04 18:43:21 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 188ms (Views: 187.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.12.74.1 at 2013-08-04 18:43:22 -0400
+Served asset /home.css - 200 OK (4ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.12.74.1 at 2013-08-04 18:43:22 -0400
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.12.74.1 at 2013-08-04 18:43:22 -0400
+Served asset /normalize.min.css - 200 OK (2ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.12.74.1 at 2013-08-04 18:43:22 -0400
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.12.74.1 at 2013-08-04 18:43:22 -0400
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/sprites.png" for 127.12.74.1 at 2013-08-04 18:43:22 -0400
+Served asset /sprites.png - 200 OK (4ms)
+
+
+Started GET "/home/index" for 127.12.74.1 at 2013-08-04 18:43:42 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 96ms (Views: 95.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.12.74.1 at 2013-08-04 18:43:42 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.12.74.1 at 2013-08-04 18:43:42 -0400
+Served asset /application.css - 200 OK (16ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.12.74.1 at 2013-08-04 18:43:42 -0400
+Served asset /home.js - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.12.74.1 at 2013-08-04 18:43:42 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.12.74.1 at 2013-08-04 18:43:42 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.12.74.1 at 2013-08-04 18:43:43 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.12.74.1 at 2013-08-04 18:43:43 -0400
+Served asset /application.js - 200 OK (5ms)
+
+
+Started GET "/assets/sprites.png" for 127.12.74.1 at 2013-08-04 18:43:43 -0400
+Served asset /sprites.png - 200 OK (0ms)
+
+
+Started GET "/assets/IMG_1688_Big.jpg" for 127.12.74.1 at 2013-08-04 18:43:43 -0400
+Served asset /IMG_1688_Big.jpg - 200 OK (12ms)
+
+
+Started GET "/home/index" for 127.12.74.1 at 2013-08-04 18:45:37 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 134ms (Views: 133.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.12.74.1 at 2013-08-04 18:45:38 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.12.74.1 at 2013-08-04 18:45:38 -0400
+Served asset /normalize.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.12.74.1 at 2013-08-04 18:45:38 -0400
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.12.74.1 at 2013-08-04 18:45:38 -0400
+Served asset /main.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.12.74.1 at 2013-08-04 18:45:38 -0400
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.12.74.1 at 2013-08-04 18:45:38 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.12.74.1 at 2013-08-04 18:45:38 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/sprites.png" for 127.12.74.1 at 2013-08-04 18:45:38 -0400
+Served asset /sprites.png - 200 OK (0ms)
+
+
+Started GET "/assets/IMG_1688_Big.jpg" for 127.12.74.1 at 2013-08-04 18:45:38 -0400
+Served asset /IMG_1688_Big.jpg - 200 OK (0ms)

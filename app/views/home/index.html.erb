@@ -16,7 +16,11 @@
 </div>
 <div class="iku_mainVideo"></div>
 <div class="iku_mv_descriptionBox">
-<div class="cpybutWarapper imgWrap"><%= image_tag("sprites.png", :alt => "ikusi logo", :id => "pyBut", :class => "iku_playButton") %></div>
+<div class="cpybutWarapper imgWrap">
+    <a href="#playHomeVideo">
+        <%= image_tag("sprites.png", :alt => "ikusi logo", :class => "iku_playButton") %>
+    </a>
+</div>
     </br>
     <span class="iku_mvTitle">NI MÁS NI MENOS</span></br>
     <span class="iku_mvsubTitle">5 HISTORIAS 5 VIDAS 5 SUEÑOS</span>
@@ -69,7 +73,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 /************************************************/
 $(document).on('keydown', function(e){
     if(e.which==27){ // ESC
-         playerCtrl.hideVideo();
+         window.location = "#";
     }
 });
 </script>

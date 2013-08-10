@@ -39,7 +39,7 @@
             }
         });
         // Initiate the router
-        var app_router = new AppRouter;
+        var app_router = new AppRouter({ pushState: true, root: "/home/index" });
         Backbone.history.start();
     </script>
 </html>

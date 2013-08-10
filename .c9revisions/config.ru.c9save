@@ -1,2 +1,0 @@
-{"ts":1374103295010,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"# This file is used by Rack-based servers to start the application.\n\nrequire ::File.expand_path('../config/environment',  __FILE__)\nrun Ikusi::Application\n"]],"start1":0,"start2":0,"length1":0,"length2":155}]],"length":155}
-{"contributors":[],"silentsave":true,"ts":1374103385272,"patch":[[{"diffs":[[0,"lication"],[-1,"\n"]],"start1":146,"start2":146,"length1":9,"length2":8}]],"length":154,"saved":false}

@@ -41731,3 +41731,106 @@ Served asset /underscore-min.js - 304 Not Modified (0ms)
 
 Started GET "/assets/home.js?body=1" for 127.5.94.129 at 2013-08-05 00:17:13 -0400
 Served asset /home.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/home/index" for 127.5.94.129 at 2013-08-10 11:08:25 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 340ms (Views: 339.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.5.94.129 at 2013-08-10 11:08:26 -0400
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.94.129 at 2013-08-10 11:08:26 -0400
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/backbone-min.js?body=1" for 127.5.94.129 at 2013-08-10 11:08:26 -0400
+Served asset /backbone-min.js - 304 Not Modified (71ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.94.129 at 2013-08-10 11:08:26 -0400
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.94.129 at 2013-08-10 11:08:26 -0400
+Served asset /normalize.min.css - 200 OK (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.94.129 at 2013-08-10 11:08:26 -0400
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.5.94.129 at 2013-08-10 11:08:26 -0400
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.94.129 at 2013-08-10 11:08:27 -0400
+Served asset /main.css - 200 OK (1ms)
+
+
+Started GET "/assets/underscore-min.js?body=1" for 127.5.94.129 at 2013-08-10 11:08:27 -0400
+Served asset /underscore-min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sprites.png" for 127.5.94.129 at 2013-08-10 11:08:27 -0400
+Served asset /sprites.png - 200 OK (2ms)
+
+
+Started GET "/assets/IMG_1688_Big.jpg" for 127.5.94.129 at 2013-08-10 11:08:27 -0400
+Served asset /IMG_1688_Big.jpg - 200 OK (3ms)
+
+
+Started GET "/home/index" for 127.5.94.129 at 2013-08-10 11:50:13 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled home.css  (284ms)  (pid 15569)
+Compiled application.css  (2ms)  (pid 15569)
+Completed 200 OK in 517ms (Views: 516.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.5.94.129 at 2013-08-10 11:50:14 -0400
+Served asset /home.css - 200 OK (3ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.5.94.129 at 2013-08-10 11:50:14 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.5.94.129 at 2013-08-10 11:50:14 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.5.94.129 at 2013-08-10 11:50:14 -0400
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/normalize.min.css?body=1" for 127.5.94.129 at 2013-08-10 11:50:14 -0400
+Served asset /normalize.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore-min.js?body=1" for 127.5.94.129 at 2013-08-10 11:50:14 -0400
+Served asset /underscore-min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-min.js?body=1" for 127.5.94.129 at 2013-08-10 11:50:14 -0400
+Served asset /backbone-min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.5.94.129 at 2013-08-10 11:50:14 -0400
+Served asset /application.js - 304 Not Modified (144ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.5.94.129 at 2013-08-10 11:50:14 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprites.png" for 127.5.94.129 at 2013-08-10 11:50:15 -0400
+Served asset /sprites.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/IMG_1688_Big.jpg" for 127.5.94.129 at 2013-08-10 11:50:15 -0400
+Served asset /IMG_1688_Big.jpg - 304 Not Modified (16ms)

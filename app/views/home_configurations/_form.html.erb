@@ -1,0 +1,21 @@
+<%= form_for(@home_configuration) do |f| %>
+  <% if @home_configuration.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@home_configuration.errors.count, "error") %> prohibited this home_configuration from being saved:</h2>
+
+      <ul>
+      <% @home_configuration.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :main_history %><br />
+    <%= f.number_field :main_history %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

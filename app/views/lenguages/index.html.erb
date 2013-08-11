@@ -1,0 +1,23 @@
+<h1>Listing lenguages</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @lenguages.each do |lenguage| %>
+  <tr>
+    <td><%= lenguage.name %></td>
+    <td><%= link_to 'Show', lenguage %></td>
+    <td><%= link_to 'Edit', edit_lenguage_path(lenguage) %></td>
+    <td><%= link_to 'Destroy', lenguage, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Lenguage', new_lenguage_path %>

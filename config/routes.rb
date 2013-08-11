@@ -1,9 +1,33 @@
 Ikusi::Application.routes.draw do
       
+  resources :videos
+
+
+  resources :lenguages
+  resources :home_configurations
+
     scope "(:locale)", locale: /en|es/ do
+        
         get "home/index"
+        
+        resources :histories
+        root to: "home#index"
     end
-    #root to: "home/index"
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

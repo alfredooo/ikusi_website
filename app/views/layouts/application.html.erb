@@ -25,21 +25,30 @@
     
     <script>
         var AppRouter = Backbone.Router.extend({
+            language:null,
             routes: {
                 "": "home",
                 "playHomeVideo": "playHomeVideo"
             },
             playHomeVideo: function(){
                 playerCtrl.playVideo();
+               
             },
             home:function(){
-                if (playerCtrl.isPlayingVideo){
-                    playerCtrl.hideVideo();   
+                if (playerCtrl){
+                    if (playerCtrl.isPlayingVideo){
+                        playerCtrl.hideVideo();   
+                    }
                 }
             }
         });
-        // Initiate the router
-        var app_router = new AppRouter({ pushState: true, root: "/home/index" });
-        Backbone.history.start();
+        
+        $(function(){
+            var lang;
+           // if($.url().segment(1) === 'en') { lang = 'en'; }
+            currentapp_router = new AppRouter({language: lang});
+            Backbone.history.start({ pushState: true ,root: "/home/index"});
+        });
+        
     </script>
 </html>

@@ -1,7 +1,9 @@
 Ikusi::Application.routes.draw do
-  get "home/index"
-  get "home/index2"
-
+      
+    scope "(:locale)", locale: /en|es/ do
+        get "home/index"
+    end
+    #root to: "home/index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

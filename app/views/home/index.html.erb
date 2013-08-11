@@ -17,7 +17,7 @@
 <div class="iku_mainVideo"></div>
 <div class="iku_mv_descriptionBox">
 <div class="cpybutWarapper imgWrap">
-    <a href="#playHomeVideo">
+    <a href="javascript:void(0)" onclick='currentapp_router.navigate("playHomeVideo", {trigger: true});'>
         <%= image_tag("sprites.png", :alt => "ikusi logo", :class => "iku_playButton") %>
     </a>
 </div>
@@ -73,7 +73,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 /************************************************/
 $(document).on('keydown', function(e){
     if(e.which==27){ // ESC
-         window.location = "#";
+         currentapp_router.navigate("", {trigger: true});
     }
 });
 </script>

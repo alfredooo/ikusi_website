@@ -22,33 +22,4 @@
         <%= yield %>
     </body>
     <%= javascript_include_tag "application" %>
-    
-    <script>
-        var AppRouter = Backbone.Router.extend({
-            language:null,
-            routes: {
-                "": "home",
-                "playHomeVideo": "playHomeVideo"
-            },
-            playHomeVideo: function(){
-                playerCtrl.playVideo();
-               
-            },
-            home:function(){
-                if (playerCtrl){
-                    if (playerCtrl.isPlayingVideo){
-                        playerCtrl.hideVideo();   
-                    }
-                }
-            }
-        });
-        
-        $(function(){
-            var lang;
-           // if($.url().segment(1) === 'en') { lang = 'en'; }
-            currentapp_router = new AppRouter({language: lang});
-            Backbone.history.start({ pushState: true ,root: "/home/index"});
-        });
-        
-    </script>
 </html>

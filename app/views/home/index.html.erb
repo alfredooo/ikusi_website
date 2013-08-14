@@ -58,23 +58,54 @@
 <div id="bkdPly"></div>
 
 <script>
-var playerCtrl;
-function onYouTubeIframeAPIReady() {
-    playerCtrl = new YouTubeController("vdPlayer");
-    var video1 = {"youTubeId": "PLzfcpxK7Y8rQMRErZrj_h-ENuMMDXs98r","coverId":"pyBut","description": "videoDescription"};
-    playerCtrl.add( video1 );
-}
-
-//***** youTube library ********/
-var tag = document.createElement('script');
-tag.src = "https://www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-/************************************************/
-$(document).on('keydown', function(e){
-    if(e.which==27){ // ESC
-         currentapp_router.navigate("", {trigger: true});
+    var playerCtrl;
+    function onYouTubeIframeAPIReady() {
+        playerCtrl = new YouTubeController("vdPlayer");
+        var video1 = {"youTubeId": "PLzfcpxK7Y8rQMRErZrj_h-ENuMMDXs98r","coverId":"pyBut","description": "videoDescription"};
+        playerCtrl.add( video1 );
     }
-});
+    
+    //***** youTube library ********/
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    /************************************************/
+    $(document).on('keydown', function(e){
+        if(e.which==27){//ESC
+            currentapp_router.navigate("", {trigger: true});
+        }
+    });
+</script>
+<script>
+    $(function(){
+
+        var AppRouter = Backbone.Router.extend({
+            language:null,
+            routes: {
+                "": "home",
+                "playHomeVideo": "playHomeVideo"
+            },
+            playHomeVideo: function(){
+                playerCtrl.playVideo();   
+            },
+            home:function(){
+                //I should set the src of the video that is going to be played ( using lang )
+                if (playerCtrl){
+                    if (playerCtrl.isPlayingVideo){
+                        playerCtrl.hideVideo();   
+                    }
+                }
+            }
+        });
+        
+        var lang = $(location).attr('pathname').split('/')[1];
+        if ( lang !== "en" && lang !== "es" ){
+            lang = null;
+        }
+        
+        currentapp_router = new AppRouter({language: lang});
+        Backbone.history.start({ pushState: true ,root: "/home/index"});
+    });
 </script>
 <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>

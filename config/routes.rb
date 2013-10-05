@@ -9,6 +9,7 @@ Ikusi::Application.routes.draw do
     scope "(:locale)", locale: /en|es/ do
         
         get "home/index"
+        get "home/index3"
         
         resources :histories
         root to: "home#index"
